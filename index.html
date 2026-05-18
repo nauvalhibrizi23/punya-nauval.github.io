@@ -310,92 +310,92 @@
         <div class="w-full px-4">
           <div class="mx-auto mb-16 max-w-xl text-center">
            <h4 class="mb-2 text-lg font-semibold text-primary">Contact</h4>
-<h2 class="mb-4 text-3xl font-bold text-dark dark:text-white sm:text-4xl lg:text-5xl">
-  Hubungi Kami
-</h2>
+      <h2 class="mb-4 text-3xl font-bold text-dark dark:text-white sm:text-4xl lg:text-5xl">
+        Hubungi Kami
+      </h2>
 
-<p class="text-md font-medium text-secondary md:text-lg">
-  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, sed.
-</p>
+      <p class="text-md font-medium text-secondary md:text-lg">
+        Belajarlah Dari Kesalahan Kamu Sendiri, Karena Hidup Tak Pernah Cukup Lama Untuk Melakukan Semua Kesalahan Itu Sendiri!
+      </p>
 
-<form onsubmit="kirimWa(); return false;">
-  <div class="w-full lg:mx-auto lg:w-2/3">
+      <form onsubmit="kirimWa(); return false;">
+        <div class="w-full lg:mx-auto lg:w-2/3">
 
-    <!-- Nama -->
-    <div class="mb-8 w-full px-4">
-      <label for="Nama" class="text-base font-bold text-primary">
-        Nama
-      </label>
+          <!-- Nama -->
+          <div class="mb-8 w-full px-4">
+            <label for="Nama" class="text-base font-bold text-primary">
+              Nama
+            </label>
 
-      <input 
-        type="text" 
-        id="Nama"
-        placeholder="Masukkan nama"
-        class="w-full rounded-md bg-slate-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
-        required
-      />
-    </div>
+            <input 
+              type="text" 
+              id="Nama"
+              placeholder="Masukkan nama"
+              class="w-full rounded-md bg-slate-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
+              required
+            />
+          </div>
 
-    <!-- Email -->
-    <div class="mb-8 w-full px-4">
-      <label for="Email" class="text-base font-bold text-primary">
-        Email
-      </label>
+          <!-- Email -->
+          <div class="mb-8 w-full px-4">
+            <label for="Email" class="text-base font-bold text-primary">
+              Email
+            </label>
 
-      <input 
-        type="email" 
-        id="Email"
-        placeholder="Masukkan email"
-        class="w-full rounded-md bg-slate-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
-        required
-      />
-    </div>
+            <input 
+              type="email" 
+              id="Email"
+              placeholder="Masukkan email"
+              class="w-full rounded-md bg-slate-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
+              required
+            />
+          </div>
 
-    <!-- Pesan -->
-    <div class="mb-8 w-full px-4">
-      <label for="Pesan" class="text-base font-bold text-primary">
-        Pesan
-      </label>
+          <!-- Pesan -->
+          <div class="mb-8 w-full px-4">
+            <label for="Pesan" class="text-base font-bold text-primary">
+              Pesan
+            </label>
 
-      <textarea 
-        id="Pesan"
-        placeholder="Masukkan pesan"
-        class="h-32 w-full rounded-md bg-slate-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
-        required
-      ></textarea>
-    </div>
+            <textarea 
+              id="Pesan"
+              placeholder="Masukkan pesan"
+              class="h-32 w-full rounded-md bg-slate-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
+              required
+            ></textarea>
+          </div>
 
-    <!-- Button -->
-    <div class="w-full px-4">
-      <button 
-        type="submit"
-        class="w-full rounded-full bg-primary py-3 px-8 text-base font-semibold text-white transition duration-500 hover:opacity-80 hover:shadow-lg">
-        Kirim
-      </button>
-    </div>
+          <!-- Button -->
+          <div class="w-full px-4">
+            <button 
+              type="submit"
+              class="w-full rounded-full bg-primary py-3 px-8 text-base font-semibold text-white transition duration-500 hover:opacity-80 hover:shadow-lg">
+              Kirim
+            </button>
+          </div>
 
-  </div>
-</form>
+        </div>
+      </form>
 
-<script>
-function kirimWa() {
+      <script>
+      function kirimWa() {
 
-  let nama = document.getElementById("Nama").value;
-  let email = document.getElementById("Email").value;
-  let pesan = document.getElementById("Pesan").value;
+        let nama = document.getElementById("Nama").value;
+        let email = document.getElementById("Email").value;
+        let pesan = document.getElementById("Pesan").value;
 
-  // Format nomor internasional
-  let nomor = "62882008407042";
+        // Format nomor internasional
+        let nomor = "62882008407042";
 
-  let url = `https://wa.me/${nomor}?text=
-Halo Nauval Hibrizi Hakim,%0A%0A
-Nama : ${nama}%0A
-Email : ${email}%0A
-Pesan : ${pesan}`;
+        let url = `https://wa.me/${nomor}?text=
+      Halo Nauval Hibrizi Hakim,%0A%0A
+      Nama : ${nama}%0A
+      Email : ${email}%0A
+      Pesan : ${pesan}`;
 
-  window.open(url, "_blank");
-}
-</script>
+        window.open(url, "_blank");
+      }
+      </script>
       </div>
     </section>
     <!-- Contact Section End -->
